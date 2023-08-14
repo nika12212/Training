@@ -198,33 +198,23 @@ a {
 .s2 {
   background: url("../img/2.webp");
   height: 100vh;
-  background-size: cover;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
 }
 
 .pai {
-  width: 100%;
-  height: 700px;
+  color: white;
+  font-size: 50px;
+  height: 100vh;
+  color: white;
+  font-family: "BPG Mikheil Stefane", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-
-.pain {
-  font-size: 50px;
-  font-weight: 900;
-  line-height: 100px;
-  color: white;
-}
-
-.david {
-  color: white;
-  font-size: 20px;
-  font-weight: bolder;
+@media (max-width: 500px) {
+  .pai {
+    width: 80%;
+  }
 }
 
 .s3 {
@@ -392,6 +382,9 @@ footer .ftnav .ftul .ftli a {
   }
 }
 @media (max-width: 500px) {
+  .pai {
+    margin-left: 50px;
+  }
   .nav {
     justify-content: center;
   }
@@ -428,10 +421,6 @@ footer .ftnav .ftul .ftli a {
   h2 {
     font-size: 20px;
   }
-  .pai {
-    max-width: 400px;
-    max-height: 70px;
-  }
   .pain {
     font-size: 30px;
     line-height: 50px;
@@ -446,7 +435,7 @@ footer .ftnav .ftul .ftli a {
     max-width: 250px;
   }
   .pai {
-    margin-top: 70px;
+    margin-left: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;

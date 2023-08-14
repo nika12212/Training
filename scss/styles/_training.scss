@@ -13,6 +13,7 @@
    .upper{
     transition: background-color 0.3s ease, transform 0.3s ease;
     width: 100%;
+    border-radius: 10px;
    cursor: pointer;
    background-image: url("../img/upperbody.jpg");
    object-fit: contain;
@@ -26,6 +27,8 @@
    .lower{
     height: 500px;
     
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
     object-fit: contain;
     width: 100%;
     background-image: url("../img/lowerbody.webp");

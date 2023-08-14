@@ -466,6 +466,71 @@ footer .ftnav .ftul .ftli a {
     width: 250px;
   }
 }
+.tips {
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.tips h3 {
+  height: 500px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.tips .upper {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  background-image: url("../img/upperbody.jpg");
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tips .upper:hover {
+  transform: scale(0.9);
+}
+.tips .lower {
+  height: 500px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  background-image: url("../img/lowerbody.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tips .lower:hover {
+  transform: scale(0.9);
+}
+
+.training {
+  height: 100vh;
+}
+.training h1 {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: flex-end;
+  font-size: 30px;
+}
+.training img {
+  border-radius: 10px;
+}
+
+.upper, .lower {
+  margin: 20px;
+}
+
+.upper h3, .lower h3 {
+  margin: 0;
+}
+
 .container {
   max-width: 1240px;
   width: 90%;
@@ -578,6 +643,7 @@ a {
 .cards img {
   max-width: 100%;
   height: 300px;
+  border-radius: 10px;
 }
 
 .cards:hover {
